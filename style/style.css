@@ -137,6 +137,8 @@ nav {
 .banner-text p {
     line-height: 26px;
     color: white;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .banner-text {
@@ -208,6 +210,11 @@ nav {
     margin-bottom: 40px;
 }
 
+.destination-text p {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .img-container img {
     width: 100%
 }
@@ -239,6 +246,11 @@ nav {
 .choose-text {
     text-align: center;
     margin-bottom: 40px;
+}
+
+.choose-text p {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .service1 {
@@ -282,6 +294,13 @@ nav {
     text-align: center;
     margin-bottom: 40px;
 }
+
+.deals p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
 
 .deals1 {
     background-image: url("../image/satoroni-1.png");
@@ -415,6 +434,11 @@ nav {
     border-radius: 10px;
     width: 40%;
     padding: 20px 40px 5px;
+}
+
+.news-text h4 {
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .news-text * {
@@ -587,6 +611,7 @@ footer p {
 
     .banner-text p {
         font-size: 14px;
+        width: 100%;
     }
 
     .button-container {
@@ -608,6 +633,11 @@ footer p {
 
     /* destination */
 
+    .destination-text p{
+        width: 100%;
+    }
+
+
     .grp1,
     .grp2,
     .grp3 {
@@ -621,6 +651,10 @@ footer p {
 
     /* why choose us */
 
+    .choose-text p{
+        width: 100%;
+    }
+
     .service1,
     .service2 {
         flex-direction: column;
@@ -632,6 +666,11 @@ footer p {
     }
 
     /* deal and discounts */
+
+    .deals p{
+        width: 100%;
+    }
+
 
     .deals1,
     .deals3 {
@@ -652,7 +691,7 @@ footer p {
 
     .deals-details {
         display: flex;
-        gap: 10px;
+        gap: 20px;
         flex-wrap: wrap;
         align-items: center;
     }
@@ -754,6 +793,103 @@ footer p {
         width: 90%;
         margin: 20px auto;
     }
+
+}
+
+/*  tablet mode */
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    .container {
+        width: 90%;
+    }
+
+
+    /* banner */
+    .button-container {
+        width: 100%
+    }
+
+    .banner-text p{
+        width: 100%;
+    }
+
+
+    /* popular tours */
+
+    .popular {
+        flex-direction: column;
+    }
+
+    .popular-img {
+        width: 100%
+    }
+
+/* destination */
+
+.destination-text p{
+    width: 100%;
+}
+
+
+    /* why choose us  */
+
+    .choose-text p{
+        width: 100%;
+    }
+
+    .service1 {
+        flex-direction: column;
+
+    }
+
+    .service2 {
+        flex-direction: column;
+    }
+
+    .service-items {
+        width: 100%;
+    }
+
+    /* deals & discount */
+
+    .deals p{
+        width: 100%;
+    }
+
+
+    /* simple perfect section */
+
+    .simple {
+        flex-direction: column;
+    }
+
+
+
+    .video-box iframe {
+        width: 700px;
+
+    }
+
+
+    /* newsletter */
+
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .news-text {
+        width: 100%;
+    }
+
+    .news-img {
+        width: 100%;
+    }
+
+    footer p {
+        width: 90%;
+    }
+
 
 
 }
