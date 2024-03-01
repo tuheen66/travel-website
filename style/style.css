@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+body {
     font-family: "Mulish", sans-serif;
 }
 
@@ -255,9 +259,9 @@ nav {
 
 .service1 {
     display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-bottom: 20px;
+    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .service2 {
@@ -266,9 +270,16 @@ nav {
 }
 
 .service-items {
-    width: 486px;
+    width: 550px;
     padding: 30px;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.service-items h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 800;
 }
 
 .service-items img {
@@ -417,6 +428,33 @@ nav {
 
 .video-box iframe {
     border-radius: 10px;
+}
+
+/*  =====  sponsors ==== */
+
+.sponsor .logo {
+    background-color: rgba(226, 106, 166, 0.24);
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.sponsor h2 {
+    text-align: center;
+}
+
+.sponsor .logo {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.sponsor .icons {
+    width: 100px;
+}
+
+.sponsor .icons img {
+    width: 100%
 }
 
 
@@ -580,7 +618,6 @@ footer p {
         align-items: center;
         justify-content: space-between;
 
-
     }
 
     .logo-main h1 {
@@ -633,7 +670,7 @@ footer p {
 
     /* destination */
 
-    .destination-text p{
+    .destination-text p {
         width: 100%;
     }
 
@@ -651,7 +688,7 @@ footer p {
 
     /* why choose us */
 
-    .choose-text p{
+    .choose-text p {
         width: 100%;
     }
 
@@ -667,7 +704,7 @@ footer p {
 
     /* deal and discounts */
 
-    .deals p{
+    .deals p {
         width: 100%;
     }
 
@@ -752,6 +789,19 @@ footer p {
         width: 100%;
     }
 
+    /* sponsor */
+
+    .sponsor .logo {
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-items: center;
+    }
+
+    .sponsor .icons {
+        width: 80px;
+    }
 
     /* newsletter */
 
@@ -810,7 +860,7 @@ footer p {
         width: 100%
     }
 
-    .banner-text p{
+    .banner-text p {
         width: 100%;
     }
 
@@ -825,16 +875,16 @@ footer p {
         width: 100%
     }
 
-/* destination */
+    /* destination */
 
-.destination-text p{
-    width: 100%;
-}
+    .destination-text p {
+        width: 100%;
+    }
 
 
     /* why choose us  */
 
-    .choose-text p{
+    .choose-text p {
         width: 100%;
     }
 
@@ -849,11 +899,12 @@ footer p {
 
     .service-items {
         width: 100%;
+        text-align: center;
     }
 
     /* deals & discount */
 
-    .deals p{
+    .deals p {
         width: 100%;
     }
 
@@ -870,6 +921,21 @@ footer p {
         width: 700px;
 
     }
+
+    /* sponsor */
+
+    .sponsor .logo {
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-items: center;
+    }
+
+    .sponsor .icons {
+        width: 80px;
+    }
+
 
 
     /* newsletter */
